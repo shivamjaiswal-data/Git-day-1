@@ -14,4 +14,4 @@ elif A==6 :
 elif A==7 :
     print("Sunday")
 else:
-    print("Invalid Input please enter a number from 1 to 7")
+    print("Invalid Input please enter a value from 1 to 7")
