@@ -14,3 +14,12 @@ while i <= 10:
 I = [1, 2, 3, 4, 5,]
 for n in I:
     print(n)
+# continue statement
+i = 0 
+while i < 10:
+    if i == 5:
+        i += 1
+        continue
+    print(i)
+    i += 1
+    
