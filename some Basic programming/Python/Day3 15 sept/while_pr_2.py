@@ -11,4 +11,6 @@ while i <= 10:
     i += 1  
 
 # Bug in Programm
-i = 0
+I = [1, 2, 3, 4, 5,]
+for n in I:
+    print(n)
