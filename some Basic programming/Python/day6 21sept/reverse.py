@@ -6,4 +6,4 @@ while op > 0:
     rev =rev * 10 + dig
 
     op = op // 10
-print("Reversed number:", rv) 
+print("Reversed number:", rev) 
