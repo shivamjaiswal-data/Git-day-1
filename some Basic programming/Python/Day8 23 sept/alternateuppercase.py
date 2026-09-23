@@ -11,4 +11,4 @@ def alternate_case(s):
 # Example usage
 input_string = "hello world"
 output_string = alternate_case(input_string)
-print(output_string)
+print(output_string)  # Output: HeLlO WoRlD
