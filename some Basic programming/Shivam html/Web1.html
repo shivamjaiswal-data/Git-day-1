@@ -1,30 +1,20 @@
-<!-- i need to create a button and a paragraph -->
-<style>
-.button {
-  background-color: #ec4509; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-.new {
-  background-color: #d2ed0a; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-</style>
-
-<button class ="button">Hello</button>
-<p>This is a simple paragraph <button class = "new">Click Me</button>.</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cart Quantity</title>
+  </head>
+  <body>
+    <button onclick="document.getElementById('paragraph').innerHTML=cartQuantity=cartQuantity+1">add to cart</button>
+  
+    <button>Show Quantity</button>
+    <button>Add to Cart</button>
+    <button>+2</button>
+    <button>+3</button>
+    <button>Reset Cart</button>
+    <p id="paragraph"></p>
+    <button onclick="document.getElementById('paragraph').innerHTML='therse are your cart items'+cartQuantity;">cart count</button>
+    <script>
+      let cartQuantity = 0;
+    </script>
+  </body>
+</html>
