@@ -30,4 +30,4 @@ for num in arr :
         smin=min
         min=num
 
-;
+
