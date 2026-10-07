@@ -22,3 +22,26 @@ print("Difference between highest and lowest number:", max(numbers) - min(number
 #append a new element in the list which is half of the item of third position in the list
 numbers.append(numbers[2] / 2)
 print("List after appending half of the third item:", numbers)
+#print sum  of first 10 even number in the list 
+lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+even_numbers = [x for x in numbers if x % 2 == 0]
+print("Sum of first 10 even numbers:", sum(even_numbers[:10]))
+#Accept two values  S And N .Print squar of N numbers starting from S
+S = int(input("Enter the starting number S: "))
+N = int(input("Enter the number of values N: "))
+squares = [i**2 for i in range(S, S+N)]
+print("Squares of", N, "numbers starting from", S, ":", squares)
+#Reverse the Accepted String and print it
+string_input = input("Enter a string: ")
+reversed_string = string_input[::-1]
+print("Reversed string:", reversed_string)
+#Accept the sentence from the User and count the vowels
+
+
+
+
+#Remove Duplicate from list 
+
+
+
+#Reverse the list 
