@@ -7,3 +7,4 @@ if tex.isalpha():
     print("Number of vowels in the word:", count)
 else:
     print("Please enter a valid word containing only letters.")
+    
