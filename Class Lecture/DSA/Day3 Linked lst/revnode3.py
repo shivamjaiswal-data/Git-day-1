@@ -51,9 +51,29 @@ list.append(n2)
 list.append(n3)
 list.append(Node(40))
 list.append(Node(55))
+list.reverse()  
 
 
 temp=list.head
 while(temp):
     print(temp.data)
     temp=temp.next
+#give me a code of sum of two consecutive nodes in linked list and return the new linked list
+def sum_consecutive_nodes(self):
+    if self.head is None or self.head.next is None:
+        return self.head  # Return the original list if it has 0 or 1 node
+
+    new_list = LinkedList()
+    current = self.head
+
+    while current and current.next:
+        sum_value = current.data + current.next.data
+        new_node = Node(sum_value)
+        new_list.append(new_node)
+        current = current.next.next  # Move to the next pair of nodes
+
+    # If there's an odd node left, append it as is
+    if current:
+        new_list.append(Node(current.data))
+
+    return new_list
