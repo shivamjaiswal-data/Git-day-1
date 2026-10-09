@@ -9,8 +9,9 @@ high= []
 for value in lst :
     if isinstance(value,int):
         high.append(value)
+highest = max(high)
 
-index = lst.index(high)
+index = lst.index(highest)
 part1 = lst[index:]
 part2 = lst[:index]
 
